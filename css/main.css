@@ -1,0 +1,32 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.row {
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    color: midnightblue;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Bitter', serif;
+}
+
+h2,h3 {
+    color: lightslategray;
+}
