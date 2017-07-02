@@ -16,7 +16,7 @@ img{
 }
 
 h1{
-    color: midnightblue;
+    color: lightslategray;
 }
 
 p{
@@ -29,4 +29,11 @@ h1, h2, h3 {
 
 h2,h3 {
     color: lightslategray;
+}
+
+.container {
+    background: -webkit-gradient (linear, left top, left bottom, from (midnightblue), to(white));
+    background: -webkit-linear-gradient(top, midnightblue, white);
+   background: -moz-linear-gradient(top, midnightblue, white);
+   background: linear-gradient(to bottom, midnightblue, white);
 }
